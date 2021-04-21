@@ -76,9 +76,7 @@ typedef struct {
     Entity big_clock;
     Entity small_clock;
     Entity second_clock;
-
-	double clock_speed;
-    
+   
 
 }World;
 
