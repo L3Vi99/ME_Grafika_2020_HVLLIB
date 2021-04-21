@@ -498,20 +498,14 @@ void scale_model(struct Model* model, double sx, double sy, double sz)
 void init_entities(World* world) {
 
 	load_model("objects//grandfatherclock.obj", &world->grandfatherclock.model);
-	world->grandfatherclock.texture = load_texture("textures//grandfatherclock_uv.bmp");
 
 	load_model("objects//inga.obj", &world->inga.model);
-	world->inga.texture = load_texture("textures//inga.png");
 
 	load_model("objects//small_clock.obj", &world->small_clock.model);
-	world->small_clock.texture = load_texture("textures//clock.png");
 
 	load_model("objects//big_clock.obj", &world->big_clock.model);
-	world->big_clock.texture = load_texture("textures//clock.png");
-    
+ 
     load_model("objects//second.obj", &world->second_clock.model);
-	world->second_clock.texture = load_texture("textures//clock.png");
-
 
 }
 
