@@ -30,7 +30,7 @@
 	
 ## Indítás: 
 
-A KissLeventeBence_HVLLIB_GrafikaBeadando mappában egy "make" parancs kiadása után a grafika.exe fájl megnyitásával már meg is 
+A KissLeventeBence_HVLLIB_GrafikaBeadando mappában a data.zip letöltés után egy make parancs kiadása után a grafika.exe fájl megnyitásával már meg is 
 tekinthető a program.
 
 
